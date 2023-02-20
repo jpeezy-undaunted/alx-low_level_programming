@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- *Main - This program prints lowercase a-z
+ *main - This program prints lowercase a-z
  *Return:Always 0 (Success)
  */
-int main(void)
+int main()
 {
 	char alpha = 'a';
 
@@ -14,6 +14,5 @@ int main(void)
 		alpha++;
 	}
 	putchar('\n');
-	
 	return (0);
 }
