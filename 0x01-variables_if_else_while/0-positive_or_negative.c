@@ -4,13 +4,13 @@
 
 /**
  *Main - This program will print a random number n if it is positive,
- *zero and negative
+ *zero or negative
  *Return:Always 0 (Success)
  */
-
 int main(void)
 {
 	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
