@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- *Main - This program will print a random number n if it is positive,
+ *main - This program will print a random number n if it is positive,
  *zero or negative
  *Return:Always 0 (Success)
  */
