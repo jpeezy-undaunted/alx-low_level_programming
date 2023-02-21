@@ -10,7 +10,7 @@ int main(void)
 	int tens;
 	int units;
 
-	for (tens = '0'; tens <= '9'; ten++) /*prints tens digits*/
+	for (tens = '0'; tens <= '9'; tens++) /*prints tens digits*/
 	{
 		for (units = '0'; units <= '9', units++) /*prints units digits*/
 		{
