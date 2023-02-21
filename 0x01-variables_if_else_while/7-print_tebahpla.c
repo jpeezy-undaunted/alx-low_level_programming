@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	char aplha = 'z';
+	char alpha = 'z';
 
 	while (alpha == 'a')
 	{
