@@ -1,16 +1,10 @@
 #include <stdio.h>
 void swap_int(int *a, int *b);
 
-/*
- * swap_int - swap integer function declaration
- * Description:This function swaps the argument values of two integers
- * @a:first integer
- * @b:second integer
- * Return:void
- */
 void swap_int(int *a, int *b)
 /* 
- * swap_int - This fuction swaps the argument values of the two integers
+ * swap_int - swap integer function declaration
+ * Description:This fuction swaps the argument values of the two integers
  * @a:first integer
  * @b:second integer
  * Return:void
