@@ -9,7 +9,8 @@ void swap_int(int *a, int *b);
  * Return:void
  */
 void swap_int(int *a, int *b)
-/*This fuction swaps the
+/* 
+ * swap_int - This fuction swaps the
  * argument values of the two integers
  */
 {
