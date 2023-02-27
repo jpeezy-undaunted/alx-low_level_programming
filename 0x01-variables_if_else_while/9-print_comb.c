@@ -8,15 +8,15 @@
 int main(void)
 {
 	int tens;
-	int units;
+	int ones;
 
 	for (tens = '0'; tens <= '9'; tens++) /*prints tens digits*/
 	{
-		for (units = '0'; units <= '9', units++) /*prints units digits*/
+		for (ones = '0'; ones <= '9', ones++) /*prints ones digits*/
 		{
 			putchar(tens);
-			putchar(units);
-			if (!(tens == '9' && units == '9')) /*ignore comma at the end*/
+			putchar(ones);
+			if (!(tens == '9' && ones == '9')) /*ignore comma at the end*/
 			{
 				putchar(',');
 				putchar(' ');
