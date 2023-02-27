@@ -2,7 +2,7 @@
 void swap_int(int *a, int *b);
 
 /*
- * swap_int - swap function declaration
+ * swap_int - swap integer functions as declared below
  * @a:first integer
  * @b:second integer
  * Return:void
