@@ -1,12 +1,11 @@
-#include <stdio.h>
-void _puts(char *str);
+#include "main.h"
+void _puts(char *str)
 /**
  * _puts -  fuction declaration
  * Description:prints a string
  * @str:the string pointers
  * Return:void
  */
-void_puts(char *str)
 {
 	int index;
 
