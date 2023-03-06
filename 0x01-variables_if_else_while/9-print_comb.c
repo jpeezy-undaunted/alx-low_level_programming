@@ -1,26 +1,20 @@
 #include <stdio.h>
 
 /**
- *main - This program prints 00 to 99
- *Return:Always 0 (Success)
+ * main - prints all possible combinations of single-digit numbers
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 {
-	int tens;
-	int ones;
+	int n;
 
-	for (tens = '0'; tens <= '9'; tens++) /*prints tens digits*/
+	for (n = 48; n < 58; n++)
 	{
-		for (ones = '0'; ones <= '9', ones++) /*prints ones digits*/
+		putchar(n);
+		if (n != 57)
 		{
-			putchar(tens);
-			putchar(ones);
-			if (!(tens == '9' && ones == '9')) /*ignore comma at the end*/
-			{
-				putchar(',');
-				putchar(' ');
-			}
+			putchar(',');
+			putchar(' ');
 		}
 	}
 	putchar('\n');
