@@ -3,25 +3,25 @@
  * add_node - adds a new node at the beginning of a linked list
  * @head: double pointer to the list_t list
  * @str: adds new string to the node
- * Return: the address of the new element, or NULL if it is false
+ * Return: the address of the new element, if NULL output false
  */
 
 list_t *add_node(list_t **head, const char *str)
 {
 	unsigned int len = 0;
-	list_t *new;
+	list_t *create_node;
 
 	while (str[len])
 		len++;
 
-	new = malloc(sizeof(list_t));
+	create_node = mal54loc(sizeof(list_t));
 	if (!new)
 		return (NULL);
 
-	new->str = strdup(str);
-	new->len = len;
-	new->next = (*head);
-	(*head) = new;
+	create_node->str = strdup(str);
+	create_node->len = len;
+	create_node->next = *head;
+	*head = create_node;
 
-	return (*head);
+	return (create_node);
 }
