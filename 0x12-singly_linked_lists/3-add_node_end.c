@@ -10,17 +10,15 @@ list_t *add_node_end(list_t **head, const char *str)
 {
 	list_t *ptr, *temp;
 
-	ptr = malloc(sizeof(list_t)); /*memory allocation for the new node
-	*/
+	ptr = malloc(sizeof(list_t));
 	if (ptr == NULL)
-		return (NULL); /*when allocation fails*/
-	ptr->str = strdup(str); /*string needs to be duplicated*/
+		return (NULL);
+	ptr->str = strdup(str);
 	if (ptr->str == NULL)
 	{
 		free(ptr);
-		return (NULL); /*returns null if failed*/
+		return (NULL);
 	}
-	/*creating new node at tge end of the list*/
 	ptr->next = NULL;
 	if (*head == NULL)
 		*head = ptr;
