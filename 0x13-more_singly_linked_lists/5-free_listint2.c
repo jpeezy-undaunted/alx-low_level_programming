@@ -1,3 +1,4 @@
+#include "lists.h"
 /**
  * free_listint2 - function frees a linked list
  * @head: points to the listint_t list to be freed
